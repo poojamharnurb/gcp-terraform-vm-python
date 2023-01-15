@@ -1,1 +1,0 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"bigquery","Source":"./modules/big_query","Dir":"modules/big_query"},{"Key":"cloud_run_src","Source":"./modules/cloud_run","Dir":"modules/cloud_run"}]}
