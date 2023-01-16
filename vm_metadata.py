@@ -47,7 +47,7 @@ def main():
     # Use default credentials
     credentials = GoogleCredentials.get_application_default()
     compute_client = googleapiclient.discovery.build('compute', 'v1', credentials=credentials)
-    output = get_instance_data(compute_client,project_id="kpmg-test-project-374714") 
+    output = get_instance_data(compute_client,project_id="project-id") 
     json_result,meta = json_write_output(header,output)
 
     print("custom metadata =",meta)
