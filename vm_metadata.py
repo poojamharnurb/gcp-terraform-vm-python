@@ -16,9 +16,9 @@ def get_instance_data(compute_client, project_id):
             output_row = []
             metadata_dict = {}
             # print(instance_row)
-        output_row.append(project_id) # Project ID as the first field
-        output_row.extend([instance_row["name"],instance_row["machineType"],instance_row["status"],instance_row["serviceAccounts"],instance_row["disks"],instance_row["metadata"]])
-        output.append(output_row)
+            output_row.append(project_id) # Project ID as the first field
+            output_row.extend([instance_row["name"],instance_row["machineType"],instance_row["status"],instance_row["serviceAccounts"],instance_row["disks"],instance_row["metadata"]])
+            output.append(output_row)
     
     return output
 
